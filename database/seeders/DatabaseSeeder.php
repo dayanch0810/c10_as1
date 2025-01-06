@@ -21,8 +21,8 @@ class DatabaseSeeder extends Seeder
         $this->call(LocationSeeder::class);
         $this->call(SeasonSeeder::class);
 
-        Student::factory(100)->create();
-        Teacher::factory(50)->create();
+        Student::factory(200)->create();
+        Teacher::factory(25)->create();
         Lesson::factory(50)->create();
         Registration::factory(500)->create();
         // User::factory(10)->create();
