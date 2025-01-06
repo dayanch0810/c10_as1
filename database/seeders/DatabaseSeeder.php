@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
         $this->call(SeasonSeeder::class);
 
         Student::factory(100)->create();
-        Teacher::factory(25)->create();
+        Teacher::factory(50)->create();
         Lesson::factory(50)->create();
         Registration::factory(500)->create();
         // User::factory(10)->create();
